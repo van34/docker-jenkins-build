@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "interviewdot/cicd-demo"
+    registry = "vandockers/anchorerepo"
     registryCredential = 'docker-hub-credentials'
     dockerImage = ''
   }
